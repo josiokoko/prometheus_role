@@ -1,6 +1,8 @@
 ---
-- name: Prometheus configuration with Ansible
+- name: Prometheus Ansible Role
   gather_facts: true
   hosts: monitorserver
   become: true
-  
+
+  roles:
+    - prometheus
