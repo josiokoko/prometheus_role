@@ -1,0 +1,6 @@
+---
+- name: Prometheus configuration with Ansible
+  gather_facts: true
+  hosts: monitorserver
+  become: true
+  
